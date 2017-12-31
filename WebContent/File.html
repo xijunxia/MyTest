@@ -16,27 +16,55 @@
 		height:100%;
 	}
 	@keyframes myfirst{
-	from{opacity:0}
-	to{opacity:100}
+		0%{opacity:0}
+		20%{opacity:0}
+		30%{opacity:100}
+		50%{opacity:0}
+		100%{opacity:0}
+	}
+		@keyframes mysecond{
+		0%{opacity:0}
+		45%{opacity:0}
+		55%{opacity:100}
+		70%{opacity:0}
+		100%{opacity:0}
+	}
+			@keyframes myt{
+		0%{opacity:0}
+		65%{opacity:0}
+		75%{opacity:100}
+		85%{opacity:0}
+		100%{opacity:0}
+	}
+			@keyframes myth{
+		0%{opacity:0}
+		80%{opacity:0}
+		90%{opacity:100}
+		100%{opacity:0}
 	}
 	h1,p{
-	animation:myfirst 2s infinite;
+
     text-align: center;
 	}
 	p{ font-size:70px; 
+	position:absolute;
 	}
 	h1{ font-size:100px;
 	color: red;
 	 }
+		#wu{animation:myfirst 9.429s infinite;}
+		#tiao{animation:mysecond 9.429s infinite;}
+		#zhu{animation:myt 9.429s infinite;}
+		#a{animation:myth 9.429s infinite;}
 </style>
 </head>
 <body>
-<audio src="song.ogg" controls="controls">
+<audio src="./wav/111.wav" autoplay="autoplay" loop="loop">
 </audio>
      <h1>2018元旦快乐</h1>
-	<p> 吴晓会啊吴晓会</p>
-	<p> 跳起来跳起来啊</p>
-	<p> 祝你快乐快乐</p>
-	<p> 啊哈哈哈你个猪</p>
+	<p id="wu"> 吴晓会啊吴晓会</p>
+	<p id="tiao"> 跳起来跳起来啊</p>
+	<p id="zhu"> 祝你快乐快乐</p>
+	<p id="a"> 啊哈哈哈你个猪</p>
 </body>
 </html>
