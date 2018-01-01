@@ -1,0 +1,115 @@
+   html,page,body{
+			height: 100%;
+			width: 100%;
+			margin: 0;
+			}
+	    page {
+		        background-size:100% 100%;
+				position: absolute;
+                text-align:center;
+                color: red;
+                font-size:20px;
+	        }
+	       #y{			
+	            animation:y 50s infinite;
+	            background-image: url("../picture/2.jpg"); 
+	    }
+	        #a{			
+	            animation:a 50s infinite;
+	            background-image: url("../picture/3.jpg"); 
+	    }
+	        #x{			
+	        	animation:x 50s infinite;
+	            background-image: url("../picture/4.jpg"); 
+	    }
+	        #n{  	
+	            animation:n 50s infinite;
+	            background-image: url("../picture/5.jpg"); 
+	    }
+	    	   #yu{animation:yu 50s infinite;
+	    background-image: url("../picture/6.jpg"); 
+	    }
+	        #w{animation:w 50s infinite;
+	    background-image: url("../picture/7.jpg"); 
+	    }  
+	     #yun{animation:yun 50s infinite;
+	    background-image: url("../picture/8.jpg"); 
+	    }
+	        #h{animation:h 50s infinite;
+	    background-image: url("../picture/9.jpg"); 
+	    }   
+	     #s{animation:s 50s infinite;
+	    background-image: url("../picture/10.jpg"); 
+	    }
+	    #i{animation:i 50s infinite;
+	    background-image: url("../picture/11.jpg"); 
+	    }
+	    @keyframes y{
+	   	0%{opacity:100}
+		10%{opacity:0}
+		100%{opacity:0}
+	    }
+	    @keyframes a{
+	   	0%{opacity:0}
+		5%{opacity:0}
+		10%{opacity:100}
+		20%{opacity:0}
+		100%{opacity:0}
+	    }
+	     @keyframes x{
+	   	0%{opacity:0}
+	
+		15%{opacity:0}
+		20%{opacity:100}
+		30%{opacity:0}
+		100%{opacity:0}
+	    }
+	    @keyframes n{
+	   	0%{opacity:0}
+		25%{opacity:0}
+		30%{opacity:100}
+		40%{opacity:0}	
+		100%{opacity:0}
+	    }
+	    	    @keyframes yu{
+	   	0%{opacity:0}
+		35%{opacity:0}
+		40%{opacity:100}
+		50%{opacity:0}	
+		100%{opacity:0}
+	    }
+	    	    @keyframes w{
+	   	0%{opacity:0}
+		45%{opacity:0}
+		50%{opacity:100}
+		60%{opacity:0}	
+		100%{opacity:0}
+	    }
+	    	    @keyframes yun{
+	   	0%{opacity:0}
+		55%{opacity:0}
+		60%{opacity:100}
+		70%{opacity:0}	
+		100%{opacity:0}
+	    }
+	    	    @keyframes h{
+	   	0%{opacity:0}
+		65%{opacity:0}
+		70%{opacity:100}
+		80%{opacity:0}	
+		100%{opacity:0}
+	    }
+	    	    @keyframes s{
+	   	0%{opacity:0}
+		75%{opacity:0}
+		80%{opacity:100}
+		90%{opacity:0}	
+		100%{opacity:0}
+	    }
+	    	    @keyframes i{
+	   	0%{opacity:0}
+		85%{opacity:0}
+		90%{opacity:100}
+		100%{opacity:0}
+	    }
+	    
